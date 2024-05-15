@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis Compras</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mis Compras</h1>
+    </header>
+
+    <div id="categoriasContainer">
+      <!-- Aca se cargarán los productos por categoria -->
+    </div>
+
+    <div id="app">
+      <section id="sec">
+        <div id="listaContainer">
+          <h2>Lista de Compras</h2>
+          <br />
+          <ul id="listaCompras"></ul>
+          <br />
+          <button id="btnGuardar">Guardar Lista Seleccionada</button>
+          <button id="btnAgregarProducto">Agregar Producto</button>
+
+          <div id="listasGuardadas">
+            <!-- Aca se cargarán las listas guardadas -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="modalModificar" class="modal">
+      <div class="modal-contenido">
+        <span id="btnCerrarModificar" class="cerrar-modal">&times;</span>
+        <h2>Modificar Lista</h2>
+        <br />
+        <div id="modalModificarLista"></div>
+        <br />
+        <button id="btnConfirmarModificar">Confirmar Modificación</button>
+      </div>
+    </div>
+
+    <div id="modalEliminar" class="modal">
+      <div class="modal-contenido">
+        <span id="btnCerrarEliminar" class="cerrar-modal">&times;</span>
+        <h2>Eliminar Lista</h2>
+        <p id="modalEliminarNombre"></p>
+        <br />
+        <button id="btnConfirmarEliminar">Confirmar Eliminar</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Mi SPA</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

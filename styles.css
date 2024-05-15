@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(202, 124, 202, 0.267);
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Merienda";
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contenido {
+  background-color: #e9b0b0;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.cerrar-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar-modal:hover,
+.cerrar-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilos para las tarjetas de las listas */
+.lista-guardada {
+  background-color: #bdca9b;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.lista-guardada h3 {
+  color: #333;
+  margin-top: 0;
+  font-family: "Merienda";
+  text-decoration: underline;
+}
+
+.lista-guardada p {
+  margin: 5px 0;
+  font-family: "Indie Flower";
+}
+
+/* Estilos para los botones */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#btnGuardar,
+#btnAgregarProducto,
+.lista-guardada button {
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-right: 5px;
+  margin-top: auto;
+  position: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  bottom: 10px;
+}
+
+#sec {
+  margin-bottom: 30%;
+}
+#btnGuardar {
+  background-color: rgb(65, 97, 67);
+  color: white;
+  margin-left: 10px;
+}
+
+#btnAgregarProducto {
+  background-color: #6b8eb8;
+  color: white;
+}
+
+.lista-guardada button {
+  background-color: #f44336;
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+
+.cerrar-modal {
+  background-color: transparent;
+  color: #aaa;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#btnConfirmarEliminar {
+  background-color: #c7a164;
+  color: white;
+}
+
+#btnConfirmarModificar {
+  background-color: #c7a164;
+  color: white;
+}
+
+/* Estilos para las categorías */
+.categoria-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: "Kaushan+Script";
+}
+
+.categoria-container h3 {
+  text-align: center;
+  margin: 20px;
+  font-size: x-large;
+  text-decoration: underline;
+  font-family: "Merienda";
+}
+
+.productos-categoria {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}

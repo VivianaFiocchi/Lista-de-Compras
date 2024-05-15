@@ -1,0 +1,264 @@
+{
+  "listas": [
+    {
+      "nombre": "ss",
+      "productos": [
+        {
+          "nombre": "COCOA",
+          "id": "13"
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "productos": [
+    {
+      "verduras": [
+        {
+          "id": 1,
+          "nombre": "LECHUGA"
+        },
+        {
+          "id": 2,
+          "nombre": "TOMATE"
+        },
+        {
+          "id": 3,
+          "nombre": "ZANAHORIA"
+        },
+        {
+          "id": 4,
+          "nombre": "CEBOLLA"
+        },
+        {
+          "id": 5,
+          "nombre": "PIMIENTO"
+        },
+        {
+          "id": 6,
+          "nombre": "ESPINACA"
+        },
+        {
+          "id": 7,
+          "nombre": "PEPINO"
+        },
+        {
+          "id": 8,
+          "nombre": "CALABACÍN"
+        },
+        {
+          "id": 9,
+          "nombre": "BERENJENA"
+        },
+        {
+          "id": 10,
+          "nombre": "COLIFLOR"
+        },
+        {
+          "id": 11,
+          "nombre": "BRÓCOLI"
+        },
+        {
+          "id": 12,
+          "nombre": "CALABAZA"
+        },
+        {
+          "id": 13,
+          "nombre": "REMOLACHA"
+        },
+        {
+          "id": 14,
+          "nombre": "PATATA"
+        },
+        {
+          "id": 15,
+          "nombre": "CALABAZA"
+        },
+        {
+          "id": 16,
+          "nombre": "ESPÁRRAGOS"
+        },
+        {
+          "id": 17,
+          "nombre": "BATATA"
+        },
+        {
+          "id": 18,
+          "nombre": "COL RIZADA"
+        },
+        {
+          "id": 19,
+          "nombre": "APIO"
+        },
+        {
+          "id": 20,
+          "nombre": "CHAMPIÑONES"
+        }
+      ],
+      "carnes": [
+        {
+          "id": 1,
+          "nombre": "POLLO"
+        },
+        {
+          "id": 2,
+          "nombre": "TERNERA"
+        },
+        {
+          "id": 3,
+          "nombre": "CERDO"
+        },
+        {
+          "id": 4,
+          "nombre": "CORDERO"
+        },
+        {
+          "id": 5,
+          "nombre": "PESCADO"
+        },
+        {
+          "id": 6,
+          "nombre": "SALMÓN"
+        },
+        {
+          "id": 7,
+          "nombre": "ATÚN"
+        },
+        {
+          "id": 8,
+          "nombre": "TRUCHA"
+        },
+        {
+          "id": 9,
+          "nombre": "BACALAO"
+        },
+        {
+          "id": 10,
+          "nombre": "MERLUZA"
+        },
+        {
+          "id": 11,
+          "nombre": "CHORIZO"
+        },
+        {
+          "id": 12,
+          "nombre": "JAMÓN"
+        },
+        {
+          "id": 13,
+          "nombre": "SALCHICHA"
+        },
+        {
+          "id": 14,
+          "nombre": "FILETE DE CERDO"
+        },
+        {
+          "id": 15,
+          "nombre": "FILETE DE POLLO"
+        },
+        {
+          "id": 16,
+          "nombre": "CARNE PICADA"
+        },
+        {
+          "id": 17,
+          "nombre": "PANCETA"
+        },
+        {
+          "id": 18,
+          "nombre": "SOLOMILLO"
+        },
+        {
+          "id": 19,
+          "nombre": "TIRA DE ASADO"
+        },
+        {
+          "id": 20,
+          "nombre": "PECHUGA DE PAVO"
+        }
+      ],
+      "almacen": [
+        {
+          "id": 1,
+          "nombre": "ARROZ"
+        },
+        {
+          "id": 2,
+          "nombre": "FIDEOS"
+        },
+        {
+          "id": 3,
+          "nombre": "ACEITE"
+        },
+        {
+          "id": 4,
+          "nombre": "VINAGRE"
+        },
+        {
+          "id": 5,
+          "nombre": "SAL"
+        },
+        {
+          "id": 6,
+          "nombre": "AZÚCAR"
+        },
+        {
+          "id": 7,
+          "nombre": "HARINA"
+        },
+        {
+          "id": 8,
+          "nombre": "LEVADURA"
+        },
+        {
+          "id": 9,
+          "nombre": "CANELA"
+        },
+        {
+          "id": 10,
+          "nombre": "PIMIENTA"
+        },
+        {
+          "id": 11,
+          "nombre": "CAFÉ"
+        },
+        {
+          "id": 12,
+          "nombre": "TÉ"
+        },
+        {
+          "id": 13,
+          "nombre": "COCOA"
+        },
+        {
+          "id": 14,
+          "nombre": "MIEL"
+        },
+        {
+          "id": 15,
+          "nombre": "CONSERVAS"
+        },
+        {
+          "id": 16,
+          "nombre": "SOPA"
+        },
+        {
+          "id": 17,
+          "nombre": "GALLETAS"
+        },
+        {
+          "id": 18,
+          "nombre": "PAN"
+        },
+        {
+          "id": 19,
+          "nombre": "QUESO"
+        },
+        {
+          "id": 20,
+          "nombre": "MANTEQUILLA"
+        }
+      ]
+    }
+  ]
+}

@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         });
 
-        fetch("http://localhost:3000/listas", {
+        fetch("http://vivianafiocchi.github.io/Lista-de-Compras/listas", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function cargarListasGuardadas() {
-    fetch("http://localhost:3000/listas")
+    fetch("http://vivianafiocchi.github.io/Lista-de-Compras/listas")
       .then((response) => response.json())
       .then((data) => {
         listasGuardadasContainer.innerHTML = "";
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function eliminarLista(idLista) {
-    fetch(`http://localhost:3000/listas/${idLista}`, {
+    fetch(`http://vivianafiocchi.github.io/Lista-de-Compras/listas/${idLista}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     listaAModificar.productos = listaProductos;
 
-    fetch(`http://localhost:3000/listas/${listaAModificar.id}`, {
+    fetch(`http://vivianafiocchi.github.io/Lista-de-Compras/listas/${listaAModificar.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

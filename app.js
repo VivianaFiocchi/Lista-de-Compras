@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //Cargar productos por categoria
 
   function cargarProductos() {
-    fetch(("/.netlify/functions/server/data.json"))
+    fetch(("/data.json"))
       .then((response) => response.json())
       .then((data) => {
         listaCompras.innerHTML = "";

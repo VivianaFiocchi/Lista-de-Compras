@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //Cargar productos por categoria
 
   function cargarProductos() {
-    fetch("data.json")
+    fetch(("/.netlify/functions/server/data.json"))
       .then((response) => response.json())
       .then((data) => {
         listaCompras.innerHTML = "";
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         });
 
-        fetch("http://localhost:3000/listas", {
+        fetch("https://lista-compras-33.netlify.app/listas", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function cargarListasGuardadas() {
-    fetch("http://localhost:3000/listas")
+    fetch("https://lista-compras-33.netlify.app/listas")
       .then((response) => response.json())
       .then((data) => {
         listasGuardadasContainer.innerHTML = "";
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function eliminarLista(idLista) {
-    fetch(`http://localhost:3000/listas/${idLista}`, {
+    fetch(`https://lista-compras-33.netlify.app/listas/${idLista}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     listaAModificar.productos = listaProductos;
 
-    fetch(`http://localhost:3000/listas/${listaAModificar.id}`, {
+    fetch(`https://lista-compras-33.netlify.app/${listaAModificar.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
